@@ -1,0 +1,7 @@
+let firstname ="Lovely"
+let lastname ="Kumari"
+let age ="20"
+let city ="Lakhisarai"
+let isstudent ="true"
+let nullvaraible ="null"
+let undefined ="undefined"
