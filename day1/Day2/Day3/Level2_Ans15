@@ -1,0 +1,12 @@
+let dateInfo = new Date();
+let year = dateInfo.getFullYear();
+let month = dateInfo.getMonth();
+let date = dateInfo.getDate();
+let hours = dateInfo.getHours();
+let minutes = dateInfo.getMinutes();
+// Solution 1
+console.log(`${year}-${month}-${date} ${hours}:${minutes}`);
+// solution 2
+console.log(`${date}-${month}-${year} ${hours}:${minutes}`);
+// solution 3
+console.log(`${date}/${month}/${year} ${hours}:${minutes}`);
